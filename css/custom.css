@@ -5,7 +5,7 @@ svg.icon {
     fill: currentColor;
     overflow: hidden;
  }
-
+ 
  @font-face {
     font-family:'arzhu';
     src:url('https://cdn.jsdelivr.net/gh/Viking602/viking602.github.io@master/fonts/Poem.ttf'); /* 修改成你的字体 */
@@ -24,6 +24,12 @@ svg.icon {
     font-display:swap
 }
 
+@font-face {
+    font-family:'cine';
+    src:url('/fonts/mdxf.ttf'); /* 修改成你的字体 */
+    font-display:swap
+}
+
 h1#site-title {
     font-family:arzhu!important
 }
@@ -35,7 +41,7 @@ a#site-name {
 }
 
 a.article-title,a.blog-slider__title,a.categoryBar-list-link,h1.post-title {
-	font-family:catfont!important
+	font-family:cine!important
 }
 
 body {
@@ -44,7 +50,7 @@ body {
 	background: var(--global-bg);
 	color: var(--font-color);
 	font-size: var(--global-font-size);
-	font-family: catfont,-apple-system,BlinkMacSystemFont,"Segoe UI","Helvetica Neue",Lato,Roboto,"PingFang SC",STZhongsong,"Lantinghei SC",sans-serif;
+	font-family: cine,-apple-system,BlinkMacSystemFont,"Segoe UI","Helvetica Neue",Lato,Roboto,"PingFang SC",STZhongsong,"Lantinghei SC",sans-serif;
 	line-height: 2;
 	-webkit-tap-highlight-color: transparent
 }
