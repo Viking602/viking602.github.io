@@ -26,7 +26,7 @@ svg.icon {
 
 @font-face {
     font-family:'cine';
-    src:url('/fonts/mdxf.ttf'); /* 修改成你的字体 */
+    src:url('https://cdn.jsdelivr.net/gh/Viking602/viking602.github.io@master/fonts/mdxf.ttf'); /* 修改成你的字体 */
     font-display:swap
 }
 
