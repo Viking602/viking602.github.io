@@ -1,0 +1,106 @@
+svg.icon {
+    width: 1em; height: 1em;
+    /* width和height定义图标的默认宽度和高度*/
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+ }
+
+ @font-face {
+    font-family:'arzhu';
+    src:url('https://cdn.jsdelivr.net/gh/Viking602/viking602.github.io@master/fonts/Poem.ttf'); /* 修改成你的字体 */
+    font-display:swap
+}
+
+@font-face {
+    font-family:'zcool';
+    src:url('https://cdn.jsdelivr.net/gh/Viking602/viking602.github.io@master/fonts/FZSJ-LXQWTJW.TTF'); /* 修改成你的字体 */
+    font-display:swap
+}
+
+@font-face {
+    font-family:'catfont';
+    src:url('https://cdn.jsdelivr.net/gh/Viking602/viking602.github.io@master/fonts/catfont.ttf'); /* 修改成你的字体 */
+    font-display:swap
+}
+
+h1#site-title {
+    font-family:arzhu!important
+}
+span#subtitle {
+    font-family:arzhu!important
+}
+a#site-name {
+    font-family:arzhu!important
+}
+
+a.article-title,a.blog-slider__title,a.categoryBar-list-link,h1.post-title {
+	font-family:catfont!important
+}
+
+body {
+	position: relative;
+	min-height: 100%;
+	background: var(--global-bg);
+	color: var(--font-color);
+	font-size: var(--global-font-size);
+	font-family: catfont,-apple-system,BlinkMacSystemFont,"Segoe UI","Helvetica Neue",Lato,Roboto,"PingFang SC",STZhongsong,"Lantinghei SC",sans-serif;
+	line-height: 2;
+	-webkit-tap-highlight-color: transparent
+}
+
+p.p.logo,span.p.logo {
+	font-family: arzhu,-apple-system,BlinkMacSystemFont,"Segoe UI","Helvetica Neue",Lato,Roboto,"PingFang SC",STZhongsong,"Lantinghei SC",sans-serif
+}
+
+/*
+主页透明化
+*/
+
+/* #recent-posts>.recent-post-item,.layout_page>div:first-child:not(.recent-posts),.layout_post>#page,.layout_post>#post,.read-mode .layout_post>#post {
+    background: var(--light_bg_color)
+}
+
+#aside-content .card-widget {
+    background: var(--light_bg_color)
+}
+
+#web_bg {
+    background: -webkit--webkit-linear-gradient(45deg,rgba(255,255,255,.4) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.4) 50%,rgba(255,255,255,.4) 75%,transparent 75%,transparent)
+} */
+
+/*
+页脚背景透明化
+*/
+
+/* #footer {
+    background: rgba(255,255,255,.15);
+    color: #000;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    backdrop-filter: saturate(100%) blur(5px)
+}
+#footer::before {
+    background: rgba(255,255,255,.15)
+}
+
+#footer #footer-wrap {
+    color: var(--font-color)
+}
+
+#footer #footer-wrap a {
+    color: var(--font-color)
+} */
+
+/*
+时间轴图标
+*/
+
+svg.icon {
+    /* 这里定义svg.icon，避免和Butterfly自带的note标签冲突 */
+     width: 1em; height: 1em;
+     /* width和height定义图标的默认宽度和高度*/
+     vertical-align: -0.15em;
+     fill: currentColor;
+     overflow: hidden;
+  }
